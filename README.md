@@ -24,7 +24,10 @@
 `````````````````
 
 ## Components
-
-- @EnablePluginRegistries
-- Interface Plugin<S>
-- PluginRegistry<S,S>
+``````````````````
+ @EnablePluginRegistries
+ Plugin<S>
+ PluginRegistry<S,S>
+ SimplePluginRegistry<T extends Plugin<S>, S>
+ OrderAwarePluginRegistry<T extends Plugin<S>, S>
+``````````````````

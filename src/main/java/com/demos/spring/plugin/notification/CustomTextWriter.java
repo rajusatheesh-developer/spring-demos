@@ -3,7 +3,7 @@ package com.demos.spring.plugin.notification;
 import org.springframework.stereotype.Component;
 
 @Component
-public final class CustomTextWriterPlugin implements CustomWriterPlugin
+public final class CustomTextWriter implements CustomWriterPlugin
 {
 
     @Override
@@ -13,7 +13,8 @@ public final class CustomTextWriterPlugin implements CustomWriterPlugin
 
     @Override
     public boolean supports(String s) {
-        return s.equalsIgnoreCase(CustomWriterType.TEXT_WRITER.name());
+        String type=CustomWriterType.TEXT_WRITER.getType();
+        return s.equalsIgnoreCase(type);
 
     }
 }

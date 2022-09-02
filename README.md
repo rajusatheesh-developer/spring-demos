@@ -3,8 +3,10 @@
 ## Overview
 
 - Chooses algorithm dynamically at runtime as supposed to select at design time
-- Use case SendingNotification : Email,SMS,PushNotification ConvertToFormat : CSV,TXT,XML,JSON
-- Implemented libs : SpringFox
+- Use cases
+  - SendingNotification : Email,SMS,PushNotification 
+  - ConvertToFormat : CSV,TXT,XML,JSON
+- Implemented frameworks : SpringFox
 
 ## Dependencies
 
